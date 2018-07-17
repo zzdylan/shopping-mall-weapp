@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "zan-cell": "/zanui-weapp/cell/index",
+    "zan-cell-group": "/zanui-weapp/cell-group/index",
+    "zan-panel": "/zanui-weapp/panel/index",
+    "zan-icon": "/zanui-weapp/icon/index"
+  }
+}

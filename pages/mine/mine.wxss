@@ -1,0 +1,14 @@
+/* pages/mine/mine.wxss */
+.avatar-view {
+  width: 750rpx;
+  height: 300rpx;
+  background-color: yellow;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+.avatar {
+  border-radius: 50%;
+  width: 200rpx;
+  height: 200rpx;
+}

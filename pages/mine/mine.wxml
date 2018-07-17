@@ -1,0 +1,16 @@
+<!--pages/mine/mine.wxml-->
+<view class="avatar-view">
+  <image class="avatar" src="/images/avatar.jpg" />
+</view>
+<view>
+  <zan-panel title="">
+    <zan-cell-group>
+      <zan-cell title="我的订单" is-link>
+        <zan-icon slot="icon" type="pending-orders"></zan-icon>
+      </zan-cell>
+      <zan-cell title="收货地址管理" is-link>
+        <zan-icon slot="icon" type="location"></zan-icon>
+      </zan-cell>
+    </zan-cell-group>
+  </zan-panel>
+</view>
