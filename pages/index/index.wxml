@@ -10,5 +10,5 @@
   </swiper>
 </view>  -->
 <view>
-  <zan-noticebar text="{{bar.text}}" scrollable="true"/>
+  <zan-noticebar text="{{notice}}" scrollable="true"/>
 </view>
