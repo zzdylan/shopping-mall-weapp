@@ -13,7 +13,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.0.4",
 	"appid": "wx64f2519cd3859368",
-	"projectname": "mini",
+	"projectname": "shopping-mall-weapp",
 	"isGameTourist": false,
 	"condition": {
 		"search": {

@@ -1,1 +1,6 @@
-{}
+{
+  "navigationBarTitleText": "分类",
+  "usingComponents": {
+    "zan-toast": "/zanui-weapp/toast/index"
+  }
+}

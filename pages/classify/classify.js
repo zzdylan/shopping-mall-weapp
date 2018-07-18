@@ -1,37 +1,29 @@
-// pages/classify/classify.js
-var app = getApp()
+const Toast = require('../../zanui-weapp/toast/toast')
 Page({
   data: {
-    navLeftItems: [],
-    navRightItems: [],
-    curNav: 1,
-    curIndex: 0
+    active:'',
+    leftItems:[
+      { id: 1, name: '分类名1' },
+      { id: 2, name: '分类名2' },
+      { id: 3, name: '分类名3' },
+      { id: 4, name: '分类名4' },
+      { id: 5, name: '分类名5' },
+      { id: 6, name: '分类名6' },
+      { id: 7, name: '分类名7' },
+      { id: 8, name: '分类名8' },
+      { id: 9, name: '分类名9' },
+      { id: 10, name: '分类名10' },
+      { id: 11, name: '分类名11' },
+      { id: 12, name: '分类名12' },
+      { id: 13, name: '分类名13' }
+    ]
   },
-  onLoad: function () {
+  showToast(event) {
+    console.log(event.currentTarget.dataset.id);
+    Toast.setDefaultOptions({
+      selector: '#zan-toast'
+    });
 
-    var that = this
-
-    that.setData({
-      navLeftItems: [
-        {
-          id:1
-        },
-        {
-          id:2
-        }
-      ],
-      navRightItems: []
-    })
+    Toast(event.currentTarget.dataset.name);
   },
-
-  //事件处理函数
-  switchRightTab: function (e) {
-    let id = e.target.dataset.id,
-      index = parseInt(e.target.dataset.index);
-    this.setData({
-      curNav: id,
-      curIndex: index
-    })
-  }
-
 })

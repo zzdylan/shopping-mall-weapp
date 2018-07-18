@@ -2,7 +2,6 @@
   "pages": [
     "pages/classify/classify",
     "pages/index/index",
-    
     "pages/shoppingCart/shoppingCart",
     "pages/mine/mine"
   ],
