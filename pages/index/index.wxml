@@ -1,11 +1,14 @@
 <!--index.wxml-->
-<view>
-  <swiper indicator-dots="{{indicatorDots}}"
-    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+ <!-- <view>
+  <swiper indicator-dots="true"
+    autoplay="true" interval="5000" duration="1000">
     <block wx:for="{{imgUrls}}">
       <swiper-item>
         <image src="{{item}}" class="slide-image" />
       </swiper-item>
     </block>
   </swiper>
+</view>  -->
+<view>
+  <zan-noticebar text="{{bar.text}}" scrollable="true"/>
 </view>

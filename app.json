@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/classify/classify",
     "pages/index/index",
+    "pages/classify/classify",
     "pages/shoppingCart/shoppingCart",
     "pages/mine/mine"
   ],
