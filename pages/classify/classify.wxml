@@ -3,21 +3,16 @@
   <view>
     <scroll-view scroll-y class="left-scroll">
     <view wx:for="{{leftItems}}" wx:for-item="item" wx:for-index="idx">
-      <view data-index="{{idx}}" data-id="{{item.id}}" data-name="{{item.name}}" bindtap="selectLeft" class="left-item {{item.active}}">{{item.name}}</view>
+      <view data-index="{{idx}}" data-id="{{item.id}}" data-name="{{item.name}}" bindtap="selectLeft" class="left-item {{item.active}}">{{item.name}}
+      </view>
     </view>
     </scroll-view>
   </view>
   <view>
     <scroll-view scroll-y class="right-scroll">
-      <view>test1</view>
-      <view>test1</view>
-      <view>test1</view>
-      <view>test1</view>
-      <view>test1</view>
-      <view>test1</view>
-      <view>test1</view>
-      <view>test1</view>
-      <view>test1</view>
+      <view>
+        {{rightItem}}
+      </view>
     </scroll-view> 
   </view>
 </view>

@@ -28,10 +28,13 @@ Page({
     this.setData({
       leftItems: that.data.leftItems
     });
+    this.setData({
+      'rightItem': that.data.leftItems[index]['name']+'的子分类'
+    });
     // Toast.setDefaultOptions({
     //   selector: '#zan-toast'
     // });
 
     // Toast(event.currentTarget.dataset.name);
-  },
+  }
 })
