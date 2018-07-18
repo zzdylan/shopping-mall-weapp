@@ -18,12 +18,20 @@ Page({
       { id: 13, name: '分类名13' }
     ]
   },
-  showToast(event) {
-    console.log(event.currentTarget.dataset.id);
-    Toast.setDefaultOptions({
-      selector: '#zan-toast'
+  selectLeft:function(event) {
+    var index = event.currentTarget.dataset.index;
+    var that = this;
+    for (var i = 0; i < that.data.leftItems.length;i++){
+      that.data.leftItems[i]['active'] = '';
+    }
+    that.data.leftItems[index]['active'] = 'active';
+    this.setData({
+      leftItems: that.data.leftItems
     });
+    // Toast.setDefaultOptions({
+    //   selector: '#zan-toast'
+    // });
 
-    Toast(event.currentTarget.dataset.name);
+    // Toast(event.currentTarget.dataset.name);
   },
 })
