@@ -5,6 +5,6 @@ Page({
       'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
       'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
     ],
-    notice: '公告'
+    notice: '公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告'
   }
 })

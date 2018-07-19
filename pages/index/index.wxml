@@ -1,5 +1,5 @@
 <!--index.wxml-->
- <!-- <view>
+ <view>
   <swiper indicator-dots="true"
     autoplay="true" interval="5000" duration="1000">
     <block wx:for="{{imgUrls}}">
@@ -8,7 +8,15 @@
       </swiper-item>
     </block>
   </swiper>
-</view>  -->
+</view>   
 <view>
-  <zan-noticebar text="{{notice}}" scrollable="true"/>
+  <zan-noticebar text="{{ notice }}" scrollable="true"/>
+</view>
+<view>
+  <zan-row>
+    <zan-col col="12" col-class="goods-item">span: 12</zan-col>
+    <zan-col col="12" col-class="goods-item">span: 12</zan-col>
+    <zan-col col="12" col-class="goods-item">span: 12</zan-col>
+    <zan-col col="12" col-class="goods-item">span: 12</zan-col>
+  </zan-row>
 </view>
